@@ -40,12 +40,12 @@ int main() {
             vec2[1] = 0;
             vec2[2] = 255;
         } else if ((vec[0] > sec2 + sec) && (vec[0] < 180 - sec2)) {
-            vec2[0] = 255;
-            vec2[1] = 0;
-            vec2[2] = 0;
-        } else {
             vec2[0] = 0;
             vec2[1] = 255;
+            vec2[2] = 0;
+        } else {
+            vec2[0] = 255;
+            vec2[1] = 0;
             vec2[2] = 0;
         }
 
